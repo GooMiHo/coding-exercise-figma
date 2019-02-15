@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+.footer-email-list-sign-up {
+  position: relative;
+  width: 1440px;
+  height: 745px;
+}
+
+.join-list-txt {
+  position: absolute;
+  left: 13.26%;
+  right: 67.71%;
+  top: 40px;
+  bottom: 30.13%;
+  vertical-align: top;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 131px;
+  font-size: 80px;
+
+  color: #B6FDBF;
+}
+
+.signup-heading {
+  position: absolute;
+  left: 37.01%;
+  right: 13.26%;
+  top: 40.6px;
+  bottom: 63.68%;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  font-size: 24px;
+
+  color: #94AEBF;
+}
+
+.email-input {
+  position: absolute;
+  left: 37.15%;
+  right: 29.51%;
+  top: 39.06%;
+  bottom: 54.9%;
+  width: 455px;
+  height: 45px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  border: none;
+  padding-left: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  font-size: 24px;
+
+  color: #FFFFFF;
+
+  mix-blend-mode: normal;
+}
+
+
+.email-input:-ms-input-placeholder{ /* IE 10+ */
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.email-input::-ms-input-placeholder{ /* Microsoft Edge */
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.email-input::placeholder{
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.next-btn {
+  position: absolute;
+  left: 71.88%;
+  right: 17.78%;
+  top: 38.66%;
+  bottom: 54.63%;
+  height: 50px;
+  width: 149px;
+  background: #ED1F34;
+  border-radius: 5px;
+  border: none;
+
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 20px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.checkbox-div {
+  position: absolute;
+  left: 37.15%;
+  right: 62.01%;
+  top: 70.21%;
+  bottom: 27.12%;
+}
+
+.regular-checkbox {
+	-webkit-appearance: none;
+	padding: 5px;
+  position: absolute;
+  background: #FFFFFF;
+  border: 1px solid #9B9B9B;
+  box-sizing: border-box;
+  border-radius: 3px;
+  z-index: 2;
+}
+
+.regular-checkbox:checked:after {
+	content: '\2714';
+	font-size: 8px;
+	position: absolute;
+	top: 0px;
+	left: 1.5px;
+  color: #17103F;
+  z-index: 3;
+}
+
+.line-1 {
+  position: absolute;
+  left: -0.18%;
+  right: -0.12%;
+  top: 26.85%;
+  bottom: 73.02%;
+
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  border: 1px solid #888888;
+}
+
+.rectangle-199 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 26.85%;
+  bottom: 44.7%;
+
+  background: #120F23;
+}
+
+.line-2 {
+  position: absolute;
+  left: -0.18%;
+  right: -0.12%;
+  top: 55.17%;
+  bottom: 44.7%;
+
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  border: 1px solid #888888;
+}
+
+.policy-agreement-text {
+  position: absolute;
+  left: 38.61%;
+  right: 36.74%;
+  top: 67.83%;
+  bottom: 50.09%;
+
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  font-size: 12px;
+
+  color: #888888;
+}
+
