@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import css from '../../public/index.css';
+
 export default function Main() {
   return (
     <div className="footer-email-list-sign-up">
