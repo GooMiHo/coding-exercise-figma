@@ -39,18 +39,20 @@ export default class Main extends Component {
     }
 
     return (
-      <div className="footer-email-list-sign-up">
-        <footer>
-          <hr className="line-1" />
-          <div className="rectangle-199">
-            {mainHeadingText(this.state)}
-            {this.state.email && this.state.firstName && this.state.lastName ?
-              <CongratsMessage /> :
-              <SubmitionForm handleSubmit={this.handleSubmit} state={this.state} />
-            }
-          </div>
-          <hr className="line-2" />
-        </footer>
+      <div className="a">
+        <div className="footer-email-list-sign-up">
+          <footer>
+            <hr className="line-1" />
+            <div className="rectangle-199">
+              {mainHeadingText(this.state)}
+              {this.state.email && this.state.firstName && this.state.lastName ?
+                <CongratsMessage /> :
+                <SubmitionForm handleSubmit={this.handleSubmit} state={this.state} />
+              }
+            </div>
+            <hr className="line-2" />
+          </footer>
+        </div>
       </div>
     );
   }

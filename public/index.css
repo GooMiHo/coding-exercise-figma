@@ -12,6 +12,11 @@
   height: 745px;
 }
 
+.footer {
+  width: 100vw;
+  background: #120F23;
+}
+
 .congrats-txt {
   width: 433px;
 }
@@ -25,7 +30,7 @@
   bottom: 30.13%;
   vertical-align: top;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 131px;
   /* font-size: 80px; */
   font-size: 53px;
@@ -47,7 +52,7 @@
   bottom: 63.68%;
 
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 30px;
   font-size: 24px;
 }
@@ -60,7 +65,7 @@
   bottom: 60.53%;
 
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 32px;
   font-size: 32px;
 }
@@ -124,6 +129,7 @@
 }
 
 
+
 .input:-ms-input-placeholder{ /* IE 10+ */
   color: #FFFFFF;
   mix-blend-mode: normal;
@@ -155,7 +161,7 @@
   border: none;
 
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   font-size: 20px;
   text-align: center;
@@ -194,10 +200,9 @@
 
 .line-1 {
   position: absolute;
-  left: -0.18%;
-  right: -0.12%;
-  top: 26.85%;
-  bottom: 73.02%;
+  left: 0%;
+  right: 0%;
+  top: 27.1%;
 
   mix-blend-mode: normal;
   opacity: 0.4;
@@ -210,16 +215,17 @@
   right: 0%;
   top: 26.85%;
   bottom: 44.7%;
-
+  top: 27.21%;
+  bottom: 40.14%;
   background: #120F23;
+  height: 212px;
 }
 
 .line-2 {
   position: absolute;
   left: -0.18%;
   right: -0.12%;
-  top: 55.17%;
-  bottom: 44.7%;
+  top: 55.4%;
 
   mix-blend-mode: normal;
   opacity: 0.4;
@@ -241,3 +247,378 @@
   color: #888888;
 }
 
+/* ========================= media queries ============================== */
+
+/* ------------------------ tablet landscape ---------------------------- */
+
+@media (max-width: 1027px) and (orientation: landscape) {
+  .rectangle-199 {
+    top: 28.17%;
+    bottom: 41.97%;
+    width: 1027px;
+  }
+
+  .line-1 {
+    display: none;
+  }
+
+  .line-2 {
+    display: none;
+  }
+
+  .main-heading-txt {
+    left: 10.35%;
+    right: 59.57%;
+    top: 38.03%;
+    bottom: 53.52%;
+    line-height: 60px;
+    /* font-size: 60px; */
+    font-size: 40px;
+  }
+
+  .signup-heading {
+    left: 341px;
+    right: 25.2%;
+    top: 43px;
+    bottom: 61.55%;
+
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  .email-input {
+    left: 33.3%;
+    right: 30.18%;
+    top: 40.7%;
+    bottom: 52.96%;
+    width: 349px;
+
+    line-height: 32px;
+    font-size: 24px;
+  }
+
+  .first-name-input,
+  .last-name-input {
+    width: 157px;
+  }
+
+  .first-name-input {
+    left: 33.3%;
+    right: 48.93%;
+    top: 40.56%;
+    bottom: 53.1%;
+  }
+
+  .last-name-input {
+    left: 52.05%;
+    right: 30.18%;
+    top: 40.56%;
+    bottom: 53.1%;
+  }
+
+  .policy-agreement-text {
+    left: 362px;
+    bottom: 42.2px;
+    line-height: 14px;
+    width: 355px;
+  }
+
+  .checkbox-div {
+    left: 341px;
+    top: 143px;
+  }
+
+  .next-btn {
+    left: 71.78%;
+    right: 13.67%;
+    top: 40.28%;
+    bottom: 52.68%;
+  }
+
+  .signup-heading {
+    width: 716px;
+  }
+
+  .congrats-txt {
+    left: 10.06%;
+    right: 45.61%;
+    top: 35.63%;
+    bottom: 50.28%;
+    width: 454px;
+    height: 100px;
+  }
+
+  .thank-you-message {
+    left: 41.89%;
+    right: 10.66%;
+    top: 37.63%;
+    bottom: 57.55%;
+
+    font-size: 28px;
+  }
+
+  .look-out-message {
+    width: 547px;
+    height: 70px;
+    left: 41.21%;
+    right: 5.37%;
+    top: 117px;
+    bottom: 45.49%;
+
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 20px;
+  }
+
+}
+
+/* ------------------------ tablet portrait ---------------------------- */
+@media (max-width: 1027px) and (orientation: portrait) {
+  .rectangle-199 {
+    width: 768px;
+    height: 240px;
+  }
+
+  .line-1 {
+    display: none;
+  }
+
+  .line-2 {
+    display: none;
+  }
+
+  .main-heading-txt {
+    left: 38.93%;
+    right: 27.6%;
+    top: 12px;
+    bottom: 62.99%;
+    line-height: 60px;
+    /* font-size: 50px; */
+    font-size: 35px;
+  }
+
+  .signup-heading {
+    top: 92px;
+    left: 99.5px;
+    width: 570px;
+    height: 28px;
+    line-height: 26px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .email-input {
+    left: 146px;
+    top: 131px;
+    width: 349px;
+    line-height: 32px;
+    font-size: 24px;
+  }
+
+  .next-btn {
+    left: 540px;
+    top: 128px;
+
+  }
+
+  .policy-agreement-text {
+    left: 167px;
+    top: 183.8px;
+
+    width: 355px;
+    height: 28px;
+  }
+
+  .checkbox-div {
+    left: 149px;
+    top: 188px;
+  }
+
+  .first-name-input,
+  .last-name-input {
+    top: 130px;
+    width: 159px;
+  }
+
+  .first-name-input {
+    left: 147px;
+  }
+
+  .last-name-input {
+    left: 339px;
+  }
+
+  .congrats-txt {
+    top: 28px;
+    left: 264px;
+    width: 378px;
+
+    line-height: 60px;
+    /* font-size: 50px; */
+    font-size: 33px;
+  }
+
+  .thank-you-message {
+    top: 107.2px;
+    left: 27.21%;
+    right: 27.08%;
+    text-align: center;
+    width: 351px;
+    line-height: 32px;
+    /* font-size: 28px; */
+    font-size: 20px;
+  }
+
+  .look-out-message {
+    top: 156px;
+    left: 143px;
+    width: 482px;
+    height: 34.22px;
+
+    line-height: normal;
+    font-size: 20px;
+  }
+
+}
+
+/* -------------------------- Mobile ------------------------------ */
+
+@media (max-width: 480px) {
+
+  .a {
+  display: flex;
+ justify-content: center;
+}
+
+.footer-email-list-sign-up {
+ position: absolute;
+ width: 1440px;
+ height: 745px;
+}
+
+  .rectangle-199 {
+    margin: auto;
+    width: 320px;
+    height: 300px;
+  }
+
+  .line-1 {
+    display: none;
+  }
+
+  .line-2 {
+    display: none;
+  }
+
+  .main-heading-txt {
+    left: 101px;
+    top: 12.7px;
+    height: 159px;
+    width: 159px;
+    line-height: 59px;
+    /* font-size: 36px; */
+    font-size: 26px;
+  }
+
+  .signup-heading {
+    top: 69.68px;
+    left: 29px;
+    width: 260px;
+    height: 40px;
+
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .signup-heading span {
+    display: inline-block;
+  }
+
+  .email-input {
+    width: 264px;
+    left: 6.25%;
+    right: 6.25%;
+  }
+
+  .next-btn {
+    width: 280px;
+    height: 44.13px;
+    left: 6.56%;
+    right: 5.94%;
+    top: 175px;
+  }
+
+  .policy-agreement-text {
+    top: 225.8px;
+    left: 16.56%;
+    right: 10%;
+
+    width: 235px;
+  }
+
+  .checkbox-div{
+    top: 227px;
+    left: 10%;
+    right: 86.25%;
+  }
+
+  .input {
+    top: 122px;
+    padding-left: 16px;
+    line-height: 32px;
+    font-size: 14px;
+
+  }
+
+  .first-name-input,
+  .last-name-input {
+    width: 119px;
+  }
+
+  .first-name-input {
+    left: 6.25%;
+    right: 51.56%;
+  }
+
+  .last-name-input {
+    left: 51.56%;
+    right: 6.25%;
+  }
+
+  .congrats-txt {
+    left: 50.93px;
+    right: 50.93px;
+    width: 218px;
+    top: 50.9px;
+    line-height: 59px;
+    font-size: 30px;
+    /* left: 21.88%;
+    right: 21.88%;
+    width: 180px;
+    font-size: 36px; */
+  }
+
+  .thank-you-message {
+    top: 122px;
+    left: 12.53%;
+    right: 13.25%;
+    width: 237.48px;
+    height: 59.29px;
+    line-height: 30px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .look-out-message {
+    top: 196px;
+    left: 9.69%;
+    right: 7.81%;
+
+    font-size: 18px;
+    text-align: center;
+    width: 264px;
+  }
+
+}

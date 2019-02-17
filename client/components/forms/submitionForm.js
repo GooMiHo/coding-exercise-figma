@@ -7,12 +7,10 @@ import NameForm from './nameForm';
 export default function SubmitionForm(props) {
   return (
     <div>
-      <h2 className="signup-heading">
-        {!props.state.email ?
-          'SIGN UP FOR THE TLC NEWSLETTER.' :
-          'ALMOST DONE! PLEASE ENTER YOUR FIRST AND LAST NAME.'
-        }
-      </h2>
+      {!props.state.email ?
+        <h2 className="signup-heading">SIGN UP FOR <span>THE TLC NEWSLETTER.</span></h2> :
+        <h2 className="signup-heading">ALMOST DONE! PLEASE ENTER YOUR FIRST AND LAST NAME.</h2>
+      }
       <form onSubmit={(event) => { props.handleSubmit(event) }}>
         {!props.state.email ?
           <EmailForm handleSubmit={props.handleSubmit} /> :
