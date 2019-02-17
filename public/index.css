@@ -209,12 +209,10 @@
   border: 1px solid #888888;
 }
 
-.rectangle-199 {
+.rectangle {
   position: absolute;
   left: 0%;
   right: 0%;
-  top: 26.85%;
-  bottom: 44.7%;
   top: 27.21%;
   bottom: 40.14%;
   background: #120F23;
@@ -252,7 +250,7 @@
 /* ------------------------ tablet landscape ---------------------------- */
 
 @media (max-width: 1027px) and (orientation: landscape) {
-  .rectangle-199 {
+  .rectangle {
     top: 28.17%;
     bottom: 41.97%;
     width: 1027px;
@@ -375,7 +373,7 @@
 
 /* ------------------------ tablet portrait ---------------------------- */
 @media (max-width: 1027px) and (orientation: portrait) {
-  .rectangle-199 {
+  .rectangle {
     width: 768px;
     height: 240px;
   }
@@ -486,9 +484,9 @@
 
 @media (max-width: 480px) {
 
-  .a {
+.main-div {
   display: flex;
- justify-content: center;
+  justify-content: center;
 }
 
 .footer-email-list-sign-up {
@@ -496,9 +494,21 @@
  width: 1440px;
  height: 745px;
 }
-
-  .rectangle-199 {
+  .outer-rectangle {
+    position: absolute;
     margin: auto;
+    left: 0%;
+    right: 0%;
+    bottom: 40.14%;background: #120F23;
+
+    width: 500px;
+    height: 300px;
+  }
+
+  .rectangle {
+    margin: auto;
+    top: 0;
+    bottom: 0;
     width: 320px;
     height: 300px;
   }
