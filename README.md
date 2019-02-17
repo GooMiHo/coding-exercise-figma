@@ -14,10 +14,10 @@ In your terminal:
 - cd moonwalker-coding-exercise/
 - npm install
 
-__For Storybook__
+__For Storybook:__
 npm run storybook
 
-__To Run in Browser (http://localhost:8080/)__
+__To Run in Browser (http://localhost:8080/):__
 npm run start-dev
 
 ## Design
