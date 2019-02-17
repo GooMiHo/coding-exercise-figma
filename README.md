@@ -2,7 +2,7 @@
 
 _Coding Exercise_
 
-This react component was designed following the criteria of the code challenge found at https://www.figma.com/file/6SessL7gCmp5y2X5fa4faZ/Code-Exercise?node-id=0%3A58. The component takes as input a users email address and full name, and stores it in a local state, which is then logged in the console.
+This react component was designed following the criteria of the code challenge found at https://www.figma.com/file/6SessL7gCmp5y2X5fa4faZ/Code-Exercise?node-id=0%3A58. The component takes a users email address and full name as input, and stores it in a local state, which is then logged in the console.
 
 ## How To Execute The Project
 
