@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,8 +12,13 @@
   height: 745px;
 }
 
-.join-list-txt {
+.congrats-txt {
+  width: 433px;
+}
+
+.main-heading-txt {
   position: absolute;
+  word-wrap: break-word;
   left: 13.26%;
   right: 67.71%;
   top: 40px;
@@ -20,9 +27,16 @@
   font-style: normal;
   font-weight: 400;
   line-height: 131px;
-  font-size: 80px;
+  /* font-size: 80px; */
+  font-size: 53px;
 
   color: #B6FDBF;
+}
+
+.signup-heading,
+.thank-you-message,
+.look-out-message {
+  color: #94AEBF;
 }
 
 .signup-heading {
@@ -31,12 +45,35 @@
   right: 13.26%;
   top: 40.6px;
   bottom: 63.68%;
+
   font-style: normal;
   font-weight: 600;
   line-height: 30px;
   font-size: 24px;
+}
 
-  color: #94AEBF;
+.thank-you-message {
+  position: absolute;
+  left: 44.87%;
+  right: 25.39%;
+  top: 34.87%;
+  bottom: 60.53%;
+
+  font-style: normal;
+  font-weight: bold;
+  line-height: 32px;
+  font-size: 32px;
+}
+
+.look-out-message {
+  position: absolute;
+  left: 44.87%;
+  top: 111px;
+
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 26px;
 }
 
 .email-input {
@@ -47,6 +84,29 @@
   bottom: 54.9%;
   width: 455px;
   height: 45px;
+}
+
+.first-name-input {
+  position: absolute;
+  left: 37.15%;
+  right: 46.53%;
+  top: 39.06%;
+  bottom: 54.9%;
+  width: 210px;
+  height: 45px;
+}
+
+.last-name-input {
+  position: absolute;
+  left: 54.17%;
+  right: 29.51%;
+  top: 39.06%;
+  bottom: 54.9%;
+  width: 210px;
+  height: 45px;
+}
+
+.input {
   background: #FFFFFF;
   mix-blend-mode: normal;
   background: rgba(255, 255, 255, 0.1);
@@ -64,19 +124,19 @@
 }
 
 
-.email-input:-ms-input-placeholder{ /* IE 10+ */
+.input:-ms-input-placeholder{ /* IE 10+ */
   color: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.4;
 }
 
-.email-input::-ms-input-placeholder{ /* Microsoft Edge */
+.input::-ms-input-placeholder{ /* Microsoft Edge */
   color: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.4;
 }
 
-.email-input::placeholder{
+.input::placeholder{
   color: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.4;

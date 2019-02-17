@@ -2,27 +2,56 @@ import React, { Component } from 'react';
 
 import css from '../../public/index.css';
 
-export default function Main() {
-  return (
-    <div className="footer-email-list-sign-up">
-      <footer>
-        <hr className="line-1" />
-        <div className="rectangle-199">
-          <h1 className="join-list-txt">Join the list</h1>
-          <h2 className="signup-heading">SIGN UP FOR THE TLC NEWSLETTER.</h2>
-          <form>
-            <input className="email-input" type="email" name="email" placeholder="enter email address" />
-            <button type="button" className="next-btn">NEXT</button>
-            <div className="checkbox-div">
-              <input type="checkbox" id="checkbox-1-1" className="regular-checkbox" />
-            </div>
-          </form>
+import mainHeadingText from '../helperFuncs';
+import SubmitionForm from './forms/submitionForm';
+import CongratsMessage from './congratsMessage';
 
-          <label className="policy-agreement-text">I agree to receive information from Discovery Communications in accordance with the following <span className="privacy-policy-link">Privacy Policy</span></label>
-        </div>
-        <hr className="line-2" />
-      </footer>
-    </div>
+export default class Main extends Component {
+  constructor() {
+    super();
+    this.state = {
+      email: '',
+      firstName: '',
+      lastName: ''
+    };
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
 
-  );
+  handleSubmit(event) {
+    event.preventDefault();
+    if (event.target.email) {
+      this.setState({
+        email: event.target.email.value
+      });
+    }
+    if (event.target.firstName && event.target.lastName) {
+      this.setState({
+        firstName: event.target.firstName.value,
+        lastName: event.target.lastName.value
+      });
+    }
+  }
+
+  render() {
+    //logs user inputs stored in state at final submision
+    if (this.state.email && this.state.firstName && this.state.lastName) {
+      console.log(this.state);
+    }
+
+    return (
+      <div className="footer-email-list-sign-up">
+        <footer>
+          <hr className="line-1" />
+          <div className="rectangle-199">
+            {mainHeadingText(this.state)}
+            {this.state.email && this.state.firstName && this.state.lastName ?
+              <CongratsMessage /> :
+              <SubmitionForm handleSubmit={this.handleSubmit} state={this.state} />
+            }
+          </div>
+          <hr className="line-2" />
+        </footer>
+      </div>
+    );
+  }
 }
