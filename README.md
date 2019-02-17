@@ -11,6 +11,7 @@ This footer component can be demoed at https://moonwalker-assignment.herokuapp.c
 ### To View A **Storybook** Or Run **In Browser**
 In your terminal:
 - git clone https://github.com/GooMiHo/moonwalker-coding-exercise
+- cd moonwalker-coding-exercise/
 - npm install
 
 __For Storybook__
