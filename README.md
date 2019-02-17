@@ -17,7 +17,7 @@ In your terminal:
 __For Storybook__
 npm run storybook
 
-__To Run in Browser__
+__To Run in Browser (http://localhost:8080/)__
 npm run start-dev
 
 ## Design
