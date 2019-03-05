@@ -14,10 +14,9 @@ export default class Main extends Component {
       firstName: '',
       lastName: ''
     };
-    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleSubmit(event) {
+  handleSubmit = (event) => {
     event.preventDefault();
     if (event.target.email) {
       this.setState({
